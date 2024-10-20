@@ -14,5 +14,5 @@ jobs:
       - uses: siddharth2016/update-readme-image@main
         with:
           IMG_ALT: Image ALT
-          #GH_TOKEN: ${{ secrets.UPDATEIMAGEREADME }} 
+          GH_TOKEN: ${{ secrets.UPDATEIMAGEREADME }} 
           #README_REPOSITORY: <username>/<differentrepo> # No need to mention this if workflow present in current non profile repo.
